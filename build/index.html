@@ -6,28 +6,186 @@
     <title>Bryan Odina</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="min-h-screen bg-white">
-    <header class="bg-white sticky top-0 text-black z-10">
-      <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
-        <h1 class="text-xl font-medium">Bryan</h1>
-        <nav
-          class="hidden sm:block space-x-8 text-xl font-medium"
-          aria-label="main"
+  <body class="min-h-screen bg-[#f9f9f9] items-center">
+    <div class="bg-white sticky top-0 text-black z-10">
+      <section
+        class="min-w-full mx-auto flex justify-between p-4 items-center shadow-xl sm:w-full"
+      >
+        <a href="#main" class="text-xl font-medium hover:text-teal-500"
+          >bryan</a
         >
-          <a href="#home" class="hover:opacity-30">Home</a>
-          <a href="#about" class="hover:opacity-30">About</a>
-          <a href="#projects" class="hover:opacity-30">Projects</a>
-          <a href="#contact" class="hover:opacity-30">Contact</a>
-        </nav>
-        <div>
-          <button
-            id="nav-open-button"
-            class="text-xl sm:hidden focus:outline-none"
+        <div class="flex justify-end">
+          <div>
+            <button
+              id="nav-open-button"
+              class="text-xl sm:hidden focus:outline-none"
+            >
+              &#9776;
+            </button>
+          </div>
+          <nav
+            class="hidden sm:block text-base font-thin space-x-10"
+            aria-label="main"
           >
-            &#9776;
-          </button>
+            <a href="#home" class="hover:text-teal-500">home</a>
+            <a href="#about" class="hover:text-teal-500">about</a>
+            <a href="#projects" class="hover:text-teal-500">projects</a>
+            <a href="#contact" class="hover:text-teal-500">contact</a>
+          </nav>
         </div>
       </section>
-    </header>
+    </div>
+    <main>
+      <article
+        class="min-h-[100vh] max-w-full mx-auto flex flex-col items-center justify-center"
+      >
+        <section
+          class="max-w-7xl mx-auto flex flex-col-reverse items-center justify-center sm:flex-row"
+        >
+          <div class="">
+            <h1
+              class="font-bold text-4xl pb-5 flex flex-col items-center sm:text-7xl sm:items-start"
+            >
+              Front-End React
+              <span class="whitespace-nowrap text-teal-700">Web Developer</span>
+            </h1>
+            <h3 class="font-sans text-2xl py-1 text-center sm:text-left">
+              Hi, I'm Bryan Odiña. A passionate Front-End React Web Developer
+              based in
+              <span class="whitespace-nowrap">Manila, Philippines</span>
+            </h3>
+            <figure
+              class="flex justify-center mt-4 gap-2 sm:flex sm:justify-start"
+            >
+              <a href="https://github.com/RedCheeksCoder"
+                ><img
+                  class="hover:bg-teal-300 rounded-full"
+                  src="img/github_logo.png"
+                  alt="Github"
+                  title="Github Profile"
+                  width="35"
+                  height="35"
+              /></a>
+              <a href="https://www.linkedin.com/in/johnbryanodina/"
+                ><img
+                  class="hover:bg-teal-300"
+                  src="img/linked_in_logo.png"
+                  alt="LinkedIn"
+                  title="LinkedIn Profile"
+                  width="35"
+                  height="35"
+              /></a>
+            </figure>
+          </div>
+
+          <img
+            src="img/dummy_image.png"
+            alt="Profile Picture"
+            width="300"
+            height="300"
+          />
+        </section>
+
+        <section
+          class="max-w-7xl max-h-36 mx-auto flex justify-center items-center mt-10"
+        >
+          <div>
+            <div class="absolute bg-[#f9f9f9] z-10 w-80 h-10 mt-0"></div>
+            <!-- <span class="text-2xl font-bolder pr-8">TECH STACK |</span> -->
+            <div class="w-[300px] flex flex-row justify-between z-0">
+              <div
+                class="translate-y-0 transition-transform duration-[1s] hover:translate-y-[50px]"
+              >
+                <img src="img/html_colored.png" alt="" />
+                <img
+                  class="opacity-100 transition-opacity duration-[2s] hover:opacity-0"
+                  src="img/html.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="translate-y-0 transition-transform duration-[1s] hover:translate-y-[50px]"
+              >
+                <img src="img/css_colored.png" alt="" />
+                <img
+                  class="opacity-100 transition-opacity duration-[2s] hover:opacity-0"
+                  src="img/css.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="translate-y-0 transition-transform duration-[1s] hover:translate-y-[50px]"
+              >
+                <img src="img/js_colored.png" alt="" />
+                <img
+                  class="opacity-100 transition-opacity duration-[2s] hover:opacity-0"
+                  src="img/js.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="translate-y-0 transition-transform duration-[1s] hover:translate-y-[50px]"
+              >
+                <img src="img/tailwind_colored.png" alt="" />
+                <img
+                  class="opacity-100 transition-opacity duration-[2s] hover:opacity-0"
+                  src="img/tailwind.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="translate-y-0 transition-transform duration-[1s] hover:translate-y-[50px]"
+              >
+                <img
+                  src="img/react_colored.png"
+                  alt=""
+                  width="48"
+                  height="48"
+                />
+                <img
+                  class="opacity-100 transition-opacity duration-[2s] hover:opacity-0"
+                  src="img/react.png"
+                  alt=""
+                  width="48"
+                  height="48"
+                />
+              </div>
+            </div>
+            <div class="w-80 h-12 absolute bg-[#f9f9f9] z-11"></div>
+          </div>
+        </section>
+      </article>
+      <section id="about" class="min-h-screen flex flex-col items-center">
+        <div class="bg-white min-w-full min-h-[15vh]"></div>
+        <div
+          class="bg-[#f9f9f9] container max-w-7xl min-h-[40vh] flex justify-center gap-8 p-12 m-8"
+        >
+          <img
+            class="max-w-xl max-h-lg rounded-xl"
+            src="img/about_image.jpg"
+            alt="About"
+          />
+          <div>
+            <h1 class="text-2xl font-bold py-2 text-teal-500">ABOUT ME</h1>
+            <h2 class="text-xl font-semibold py-2 text-[#124653]">
+              A dedicated Front-end Developer based in Taguig, Manila,
+              Philippines
+            </h2>
+            <p class="text-lg leading-8">
+              As a Junior Front-End Developer, I possess an impressive arsenal
+              of skills in HTML, CSS, JavaScript, React, and Tailwind. I excel
+              in designing and maintaining responsive websites that offer a
+              smooth user experience. My expertise lies in crafting dynamic,
+              engaging interfaces through writing clean and optimized code and
+              utilizing cutting-edge development tools and techniques. I am also
+              a team player who thrives in collaborating with cross-functional
+              teams to produce outstanding web applications.
+            </p>
+          </div>
+          <h2></h2>
+        </div>
+        <div class="bg-[#f9f9f9] min-w-full min-h-[30vh]"></div>
+      </section>
+    </main>
   </body>
 </html>
