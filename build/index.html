@@ -39,22 +39,39 @@
     <main>
       <!-- /////////////////////////////////////HEADLINE///////////////////////////////////// -->
       <article
-        class="min-h-[100vh] max-w-full mx-auto flex flex-col items-center justify-center"
+        class="min-h-[100vh] max-w-7xl mx-auto flex flex-col items-center justify-center px-8"
       >
         <section
-          class="max-w-7xl mx-auto flex flex-col-reverse items-center justify-center sm:flex-row"
+          class="max-w-5xl mx-auto flex flex-col-reverse items-center justify-center gap-12 sm:flex-row"
         >
-          <div class="">
+          <div class="w-4xl">
             <h1
               class="font-bold text-4xl pb-5 flex flex-col items-center sm:text-7xl sm:items-start"
             >
-              Front-End React
-              <span class="whitespace-nowrap text-teal-700">Web Developer</span>
+              <span class="whitespace-nowrap">Front-End React</span>
+              <p class="whitespace-nowrap text-teal-700 flex gap-4">
+                Web Developer
+                <img src="img/waving.png" alt="Greet" />
+              </p>
             </h1>
-            <h3 class="font-sans text-2xl py-1 text-center sm:text-left">
+            <h3 class="font-sans text-2xl py-0.5 text-center sm:text-left">
               Hi, I'm Bryan Odiña. A passionate Front-End React Web Developer
               based in
-              <span class="whitespace-nowrap">Manila, Philippines</span>
+              <span class="whitespace-nowrap gap-1 inline-block">
+                Manila, Philippines
+              </span>
+              <a
+                class="absolute"
+                href="https://www.google.com/maps/dir//14.5155743,121.0393548/@14.5155999,121.0393461,21z?entry=ttu"
+              >
+                <img
+                  class="block"
+                  src="img/location.png"
+                  alt="Location"
+                  title="Taguig City"
+                  width="25"
+                  height="10"
+              /></a>
             </h3>
             <figure
               class="flex justify-center mt-4 gap-2 lg:flex lg:justify-start"
@@ -387,5 +404,8 @@
         </section>
       </article>
     </main>
+    <footer>
+      <div></div>
+    </footer>
   </body>
 </html>
