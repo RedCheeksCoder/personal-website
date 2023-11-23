@@ -14,9 +14,7 @@ module.exports = {
       "slide-bg-color":
         "slide-bg-color color:#147efb 0.5s ease-in-out forwards",
     },
-    /*     animation: {
-      "color-delay": "slide-bg-color color:#147efb transition: all 0.3s",
-    }, */
+
   },
   plugins: [],
 };
